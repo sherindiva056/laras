@@ -1,0 +1,27 @@
+{
+  "name": "laras",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack --hostname 0.0.0.0 --port 3002",
+    "build": "next build --webpack",
+    "check": "tsc --noEmit",
+    "test": "tsc --noEmit",
+    "check:config": "node scripts/check-config.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/plus-jakarta-sans": "^5.3.0",
+    "@supabase/supabase-js": "2.119.0",
+    "lucide-react": "1.65.0",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  },
+  "type": "module"
+}
